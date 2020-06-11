@@ -23,7 +23,52 @@ class Atm extends Component {
 
     render() {
         return (
-            <h1>Hello from Atm</h1>
+            <div className="atm">
+                <h1>ATM</h1>
+
+                <div className="balance_section">
+                    <h2 className="balance">$ {this.props.balance}</h2>
+                </div>
+
+                <div className="button_section">
+
+                    {/** Deposit Buttons*/}
+                    <button type="button" onClick={}>
+                        Deposit $ 1
+                    </button>
+
+                    <button type="button" onClick={}>
+                        Deposit $ 5
+                    </button>
+
+                    <button type="button" onClick={}>
+                        Deposit $ 10
+                    </button>
+
+                    <button type="button" onClick={}>
+                        Deposit $ 20
+                    </button>
+
+                    {/** Withdraw Buttons*/}
+                    <button type="button" onClick={}>
+                        Withdraw $ 1
+                    </button>
+
+                    <button type="button" onClick={}>
+                        Withdraw $ 5
+                    </button>
+
+                    <button type="button" onClick={}>
+                        Withdraw $ 10
+                    </button>
+
+                    <button type="button" onClick={}>
+                        Withdraw $ 20
+                    </button>
+
+                </div>
+
+            </div>
         );
     }
 }
