@@ -2,7 +2,7 @@
 import { combineReducers } from 'redux';
 
 // export default so import does not need to be destructured
-import bankReducer from './reducers/bankReducer';
+import bankReducer from './Reducers/bankReducer';
 
 // Initializations
 const rootReducer = combineReducers({

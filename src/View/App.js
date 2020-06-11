@@ -1,9 +1,10 @@
 import React from 'react';
+import Atm from '../Components/Atm';
 
 const App = () => {
   return (
     <React.Fragment>
-      <h1>App</h1>
+      <Atm />
     </React.Fragment>
   );
 }

@@ -25,15 +25,15 @@ export const depositOneActionCreator = () => ({
     type: DEPOSIT_ONE,
 });
 
-export const depositFiveActonCreator = () => ({
+export const depositFiveActionCreator = () => ({
     type: DEPOSIT_FIVE,
 });
 
-export const depositTenActonCreator = () => ({
+export const depositTenActionCreator = () => ({
     type: DEPOSIT_TEN,
 });
 
-export const depositTwentyActonCreator = () => ({
+export const depositTwentyActionCreator = () => ({
     type: DEPOSIT_TWENTY,
 });
 
@@ -42,15 +42,15 @@ export const withdrawOneActionCreator = () => ({
     type: WITHDRAW_ONE,
 });
 
-export const withdrawFiveActonCreator = () => ({
+export const withdrawFiveActionCreator = () => ({
     type: WITHDRAW_FIVE,
 });
 
-export const withdrawTenActonCreator = () => ({
+export const withdrawTenActionCreator = () => ({
     type: WITHDRAW_TEN,
 });
 
-export const withdrawTwentyActonCreator = () => ({
+export const withdrawTwentyActionCreator = () => ({
     type: WITHDRAW_TWENTY,
 });
 
@@ -104,6 +104,9 @@ const bankReducer = (state = initialState, action) => {
                 ...state,
                 balance: state.balance - 20,
             };
+        
+        default:
+            return state;
 
     }
 };
