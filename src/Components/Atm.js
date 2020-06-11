@@ -31,9 +31,10 @@ class Atm extends Component {
                 </div>
 
                 <div className="button_section">
+                    {/* * These buttons don't do anything until we add the respective action function to them*/}
 
                     {/** Deposit Buttons*/}
-                    <button type="button" onClick={console.log("Deposit $1")}>
+                    <button type="button" onClick={() => this.props.depositOneAction()}>
                         Deposit $ 1
                     </button>
 
