@@ -38,32 +38,32 @@ class Atm extends Component {
                         Deposit $ 1
                     </button>
 
-                    <button type="button" onClick={console.log("Deposit $5")}>
+                    <button type="button" onClick={() => this.props.depositFiveAction()}>
                         Deposit $ 5
                     </button>
 
-                    <button type="button" onClick={console.log("Deposit $10")}>
+                    <button type="button" onClick={() => this.props.depositTenAction()}>
                         Deposit $ 10
                     </button>
 
-                    <button type="button" onClick={console.log("Deposit $20")}>
+                    <button type="button" onClick={() => this.props.depositTwentyAction()}>
                         Deposit $ 20
                     </button>
 
                     {/** Withdraw Buttons*/}
-                    <button type="button" onClick={console.log("Withdraw $1")}>
+                    <button type="button" onClick={() => this.props.withdrawOneAction()}>
                         Withdraw $ 1
                     </button>
 
-                    <button type="button" onClick={console.log("Withdraw $5")}>
+                    <button type="button" onClick={() => this.props.withdrawFiveAction()}>
                         Withdraw $ 5
                     </button>
 
-                    <button type="button" onClick={console.log("Withdraw $10")}>
+                    <button type="button" onClick={() => this.props.withdrawTenAction()}>
                         Withdraw $ 10
                     </button>
 
-                    <button type="button" onClick={console.log("Withdraw $20")}>
+                    <button type="button" onClick={() => this.props.withdrawTwentyAction()}>
                         Withdraw $ 20
                     </button>
 
