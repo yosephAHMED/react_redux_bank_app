@@ -33,36 +33,36 @@ class Atm extends Component {
                 <div className="button_section">
 
                     {/** Deposit Buttons*/}
-                    <button type="button" onClick={}>
+                    <button type="button" onClick={console.log("Deposit $1")}>
                         Deposit $ 1
                     </button>
 
-                    <button type="button" onClick={}>
+                    <button type="button" onClick={console.log("Deposit $5")}>
                         Deposit $ 5
                     </button>
 
-                    <button type="button" onClick={}>
+                    <button type="button" onClick={console.log("Deposit $10")}>
                         Deposit $ 10
                     </button>
 
-                    <button type="button" onClick={}>
+                    <button type="button" onClick={console.log("Deposit $20")}>
                         Deposit $ 20
                     </button>
 
                     {/** Withdraw Buttons*/}
-                    <button type="button" onClick={}>
+                    <button type="button" onClick={console.log("Withdraw $1")}>
                         Withdraw $ 1
                     </button>
 
-                    <button type="button" onClick={}>
+                    <button type="button" onClick={console.log("Withdraw $5")}>
                         Withdraw $ 5
                     </button>
 
-                    <button type="button" onClick={}>
+                    <button type="button" onClick={console.log("Withdraw $10")}>
                         Withdraw $ 10
                     </button>
 
-                    <button type="button" onClick={}>
+                    <button type="button" onClick={console.log("Withdraw $20")}>
                         Withdraw $ 20
                     </button>
 
